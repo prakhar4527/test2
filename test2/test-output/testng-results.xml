@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-09T13:37:18Z" name="Default suite" finished-at="2018-07-09T13:37:22Z" duration-ms="3973">
+    <groups>
+    </groups>
+    <test started-at="2018-07-09T13:37:18Z" name="Default test" finished-at="2018-07-09T13:37:22Z" duration-ms="3973">
+      <class name="NewTest">
+        <test-method signature="LaunchBrowser()[pri:0, instance:NewTest@58d4238e]" started-at="2018-07-09T13:37:18Z" name="LaunchBrowser" finished-at="2018-07-09T13:37:21Z" duration-ms="2636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="checkLogin1()[pri:0, instance:NewTest@58d4238e]" started-at="2018-07-09T13:37:21Z" name="checkLogin1" finished-at="2018-07-09T13:37:21Z" depends-on-methods="NewTest.LaunchBrowser" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin1 -->
+        <test-method signature="checkLogin2()[pri:0, instance:NewTest@58d4238e]" started-at="2018-07-09T13:37:21Z" name="checkLogin2" finished-at="2018-07-09T13:37:22Z" depends-on-methods="NewTest.checkLogin1" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogin2 -->
+      </class> <!-- NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
